@@ -28,7 +28,6 @@ static const uint16_t uuid16_list[]        = {GattService::UUID_HEART_RATE_SERVI
 static volatile bool  triggerSensorPolling = false;
 
 uint8_t hrmCounter = 100; // init HRM to 100bps
-x
 HeartRateService         *hrService;
 DeviceInformationService *deviceInfo;
 
